@@ -70,7 +70,8 @@ color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
 `
 
 export const ImgWrapper = styled.div`
-max-width: 555px;
+/* max-width: 555px; */
+max-width: 100%;
 display: flex;
 justify-content: ${({ start}) => (start ? 'flex-start' : 'flex-end')};
 `;

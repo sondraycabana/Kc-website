@@ -2,14 +2,14 @@ import styled from 'styled-components'
 import { Container} from '../../globalStyles'
 import FirstImg from '../../../src/images/svg2.svg'
 
-import {FaMagento} from 'react-icons/fa';
+
 import {Link} from 'react-router-dom';
 
 
 export const Nav = styled.nav`
-/* background:orange; */
-background:#B026FF;
-height: 80px;
+background:white;
+/* background:#B026FF; */
+height: 60px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -17,6 +17,7 @@ font-size: 1.2rem;
 position: sticky;
 top: 0px;
 z-index:999;
+
 `
 
 export const NavbarContainer = styled(Container)`
@@ -28,7 +29,7 @@ ${Container}
 `
 export const NavLogo = styled(Link)`
 
-color: #fff;
+/* color: #fff; */
 justify-self: flex-start;
 cursor: pointer;
 text-decoration: none;
@@ -37,7 +38,7 @@ display: flex;
 align-items: center;
 
 `
-{/*export const NavIcon = styled(FaMagento)` */}
+
 export const NavIcon = styled(FirstImg)`
 
 margin-right: 0.5rem;
@@ -48,8 +49,8 @@ display: none;
 @media screen and (max-width:960px){
     display:block;
     position: absolute;
-   
-    top: 20px;
+    background-color: grey;
+    top: 15px;
     right: 10px;
     transform: tanslate(-100%, 60%);
     font-size: 1.8rem;
@@ -65,15 +66,15 @@ text-align: center;
 @media screen and (max-width: 960px){
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     height: 90vh;
     position: absolute;
-    top: 80px;
+    top: 60px;
     
     left: ${({click}) => (click ? 0 : '-100%')};
     opacity:1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #F5F5F5;
 }
 `
 export const NavItem = styled.li`
@@ -94,7 +95,8 @@ border-bottom: 2px solid transparent;
 `
 
 export const NavLinks = styled(Link)`
-color: #fff;
+/* color: #fff; */
+color:black;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -108,7 +110,7 @@ height: 100%;
     display: table;
 
     &:hover{
-        color: #4b59f7;
+        color: orange;
         transition: all 0.3s ease;
     }
 }

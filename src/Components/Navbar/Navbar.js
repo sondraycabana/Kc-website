@@ -2,23 +2,23 @@
  import {Nav, 
     NavbarContainer,
      NavLogo, 
-    //  NavIcon, 
+  
      MobileIcon, 
      NavMenu, 
      NavItem, 
      NavLinks, 
      NavItemBtn, 
      NavBtnLink,
-     closeMobileMenu} from './Navbar.element'
+     } from './Navbar.element'
  import { Button} from '../../globalStyles'
  import {FaBars, FaTimes} from 'react-icons/fa';
  import { IconContext} from 'react-icons/lib'
-//  import FirstImg from '../../../src/images/svg2.svg'
+
  import FirstImg from '../../../src/images/Logo2.jpg'
 
 // import {Button } from '../../globalStyles';
  //the ../../ means (outside Navbar and outside Component then Globalstyles)
-  const Navbar = () => {
+  const Navbar = (props) => {
       const[click, setClick] = useState(false)
       const[button, setButton] = useState(true)
 
@@ -44,10 +44,10 @@
        
             <NavbarContainer>
            
-            <img src={FirstImg} />
+           
             <NavLogo to="/" onClick={closeMobileMenu}>
             
-            {/*<NavIcon/>*/}
+            <img src={FirstImg} height={45} />
           
         
             </NavLogo>

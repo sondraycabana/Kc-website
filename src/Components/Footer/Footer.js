@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../../src/images/Logo2.jpg'
+import Logo from '../../../src/images/Logo.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import {Button} from '../../globalStyles'
 import { FooterContainer,
@@ -17,7 +17,6 @@ import { FooterContainer,
     SocialMediaWrap,
     SocialLogo,
     WebsiteRights,
-    SocialIcon,
     SocialIcons,
     SocialIconLink
     
@@ -98,10 +97,9 @@ const footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/">
-                          {/*  <SocialIcon/> */} 
-                                <img src={Logo} width={100} height={80}/>
+                                <img src={Logo} width={80} height={80}   />
                         </SocialLogo>
-                        <WebsiteRights>KING CABANA 2021</WebsiteRights>
+                        <WebsiteRights>KING CABANA 2021 </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank"
                             aria-label="Facebook">

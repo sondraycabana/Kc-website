@@ -53,7 +53,8 @@ import {
             </InfoColumn>
             <InfoColumn>
                 <ImgWrapper start={start}>
-                <Img src={img} alt={alt} />
+                <Img src={img} alt={alt}/>
+                
                 </ImgWrapper>
             </InfoColumn>
             </InfoRow>

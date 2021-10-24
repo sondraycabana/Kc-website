@@ -1,6 +1,6 @@
 import React from 'react'
-import { InfoSection,Pricing} from '../../Components'
-import {homeObjOne, homeObjTwo, homeObjThree, homeObjFour}from './Data'
+import { InfoSection} from '../../Components'
+import {homeObjOne}from './Data'
 
 
 const Home = () => {

@@ -1,8 +1,9 @@
 // import FourImg from '../../../src/images/svg3.svg';
-import FourImg from '../../../src/images/mobile1.jpg';
-import Girl1Img from '../../../src/images/software2.png';
+import FourImg from '../../../src/images/mob1.svg';
+import Girl1Img from '../../../src/images/web4.gif';
+// import Girl1Img from '../../../src/images/mob1.svg'
 import ThirdImg from '../../../src/images/digital-marketing2.png';
-import FirstImg from '../../../src/images/svg2.svg'
+import FirstImg from '../../../src/images/web2.svg'
 
 export const homeObjOne = {
     // lightBg:true,

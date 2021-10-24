@@ -6,9 +6,10 @@ import { homeObjFour, homeObjOne, homeObjThree, homeObjTwo} from './Data'
 const Home = () => {
     return (
         <>
+        <InfoSection {...homeObjFour}/>
         <InfoSection {...homeObjThree}/>
         <InfoSection {...homeObjOne}/>
-        <InfoSection {...homeObjFour}/>
+        
           <InfoSection {...homeObjTwo } /> 
           
            
