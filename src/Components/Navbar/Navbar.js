@@ -80,7 +80,7 @@
             ):(
                 <NavBtnLink to="/sign-up">
                 <Button onClick={closeMobileMenu} fontBig primary>
-                SIGN UP
+                SIG
                 </Button>
                 </NavBtnLink>
             )}

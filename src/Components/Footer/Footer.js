@@ -50,9 +50,9 @@ const footer = () => {
                     <FooterLinksItems>
 
                     <FooterLinksTitle>
-                    Technologoes
+                    Technologies
                     </FooterLinksTitle>
-                    <FooterLink to="/sign-up"> Java software development</FooterLink>
+                    <FooterLink to="/service"> Java software development</FooterLink>
                     <FooterLink to="/"> Javascript software development</FooterLink>
                     <FooterLink to="/"> Mobile software development</FooterLink>
                     
@@ -62,7 +62,7 @@ const footer = () => {
                     <FooterLinksTitle>
                     Contact Us
                     </FooterLinksTitle>
-                    <FooterLink to="/sign-up"> How it works</FooterLink>
+                    <FooterLink to="/contact"> Contact</FooterLink>
                     <FooterLink to="/"> Testimonials</FooterLink>
                     
                     </FooterLinksItems>
@@ -73,7 +73,7 @@ const footer = () => {
                     <FooterLinksTitle>
                    Video
                     </FooterLinksTitle>
-                    <FooterLink to="/sign-up"> How we do it</FooterLink>
+                    <FooterLink to="/service"> How we do it</FooterLink>
                     <FooterLink to="/"> Testimonials</FooterLink>
                     
                     </FooterLinksItems>
@@ -82,7 +82,7 @@ const footer = () => {
                     <FooterLinksTitle>
                    Social media
                     </FooterLinksTitle>
-                    <FooterLink to="/sign-up"> Video</FooterLink>
+                    <FooterLink to="/service"> Video</FooterLink>
                     <FooterLink to="/"> Testimonials</FooterLink>
                     <FooterLink to="/"> Career</FooterLink>
                     
