@@ -74,7 +74,7 @@
 
             <NavItemBtn>
             {button ? (
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="/">
                 <Button primary>SIGN UP</Button>
                 </NavBtnLink>
             ):(

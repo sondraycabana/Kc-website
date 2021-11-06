@@ -52,7 +52,7 @@ const footer = () => {
                     <FooterLinksTitle>
                     Technologies
                     </FooterLinksTitle>
-                    <FooterLink to="/service"> Java software development</FooterLink>
+                    <FooterLink to="/services"> Java software development</FooterLink>
                     <FooterLink to="/"> Javascript software development</FooterLink>
                     <FooterLink to="/"> Mobile software development</FooterLink>
                     
