@@ -10,9 +10,9 @@ export const homeObjOne = {
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
      description: 'We design and implement responsive, fast, and user-friendly websites application and landing pages to enhance and unlock the potential of your businesses. Whether you need to boost conversion or improve the brand awareness. We can develop a great website to help you accomplish your goals.',
-     headline:' Top web & mobile development company in nigeria', 
+     headline:' Top digital solutions for your business', 
      lightText: true,
-     topLine: 'Web & mobile development',
+     topLine: '',
      img: FourImg,
     //  img: require('../../images/svg3.svg'),
   

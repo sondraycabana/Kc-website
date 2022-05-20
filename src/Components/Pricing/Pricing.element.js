@@ -48,7 +48,7 @@ export const PricingCard = styled(Link)`
   height: 500px;
   text-decoration: none;
   border-radius: 6px;
-  border: 2px solid blue;
+  border: 2px solid red;
   &:nth-child(2) {
     margin: 24px;
   }

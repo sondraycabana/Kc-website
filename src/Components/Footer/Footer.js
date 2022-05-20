@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../../../src/images/Logo.png'
+
+import Logo from '../../../src/images/Peteka.png'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import {Button} from '../../globalStyles'
 import { FooterContainer,
@@ -35,10 +36,7 @@ const footer = () => {
             </FooterSubText>
             
               <Form>
-                <FormInput name="email" type="email" placeholder="Your first name"/>
-                <FormInput name="email" type="email" placeholder="Your last name"/>
-                <FormInput name="email" type="email" placeholder="Your phone number"/>
-                <FormInput name="email" type="email" placeholder="Your message"/>
+                                <FormInput name="email" type="email" placeholder="Your email"/>
                
                 <Button fontBig>Submit</Button>
             </Form>
@@ -99,7 +97,7 @@ const footer = () => {
                         <SocialLogo to="/">
                                 <img src={Logo} width={80} height={80}   />
                         </SocialLogo>
-                        <WebsiteRights>KING CABANA 2021 </WebsiteRights>
+                        <WebsiteRights>PETEKA 2022 </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank"
                             aria-label="Facebook">

@@ -1,6 +1,7 @@
 import React from 'react'
 import { InfoSection} from '../../Components'
 import {homeObjOne}from './Data'
+import { Pricing} from '../../Components'
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
         <>
           
           <InfoSection {...homeObjOne } /> 
+          <Pricing />
         
               
         </>

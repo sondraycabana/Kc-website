@@ -14,7 +14,7 @@ export const homeObjOne = {
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
      description: 'We offer iOS, Android, and cross-platform application development services creating award-winning user-friendly mobile solutions for startups, SMEs and Enterprises.', 
-     headline:' Award winning mobile designs', 
+     headline:' Mobile Designs', 
      lightText: true,
      topLine: 'Mobile application',
      img: FourImg,

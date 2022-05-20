@@ -23,20 +23,21 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Prices</PricingHeading>
+          <PricingHeading>What we do</PricingHeading>
           <PricingContainer>
             <PricingCard to='/sign-up'>
               <PricingCardInfo>
                 <PricingCardIcon>
                   <GiRock />
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+               {/*<PricingCardPlan>Starter Pack</PricingCardPlan>*/} 
+               <PricingCardPlan>Web Development</PricingCardPlan>
+                <PricingCardCost>$300 - Plus</PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>ROI is certain</PricingCardFeature>
+                  <PricingCardFeature>User friendly</PricingCardFeature>
+                  <PricingCardFeature>SEO optimised</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -46,12 +47,12 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Digital Reputation</PricingCardPlan>
+                <PricingCardCost>$500 - plus</PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
+                  <PricingCardFeature>ROI is certain</PricingCardFeature>
+                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
                   <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
@@ -62,12 +63,12 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Mobile App </PricingCardPlan>
+                <PricingCardCost>$(Customize)</PricingCardCost>
+                <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
+                  <PricingCardFeature>User friendly</PricingCardFeature>
+                  <PricingCardFeature></PricingCardFeature>
                   <PricingCardFeature>24/7 Support</PricingCardFeature>
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>

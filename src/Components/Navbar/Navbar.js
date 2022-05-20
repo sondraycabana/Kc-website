@@ -14,7 +14,7 @@
  import {FaBars, FaTimes} from 'react-icons/fa';
  import { IconContext} from 'react-icons/lib'
 
- import FirstImg from '../../../src/images/Logo2.jpg'
+ import FirstImg from '../../../src/images/Peteka.png'
 
 // import {Button } from '../../globalStyles';
  //the ../../ means (outside Navbar and outside Component then Globalstyles)
@@ -80,7 +80,7 @@
             ):(
                 <NavBtnLink to="/sign-up">
                 <Button onClick={closeMobileMenu} fontBig primary>
-                SIG
+                SIGN UP
                 </Button>
                 </NavBtnLink>
             )}
