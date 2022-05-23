@@ -28,6 +28,7 @@ function App (){
         <Route path="/contact" exact component={Contact} />
         <Route path="/about" exact component={About} />
         <Route path="/sign-up" exact component={SignUp} />
+     
         </Switch>
         
         <Footer/>

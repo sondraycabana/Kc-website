@@ -71,20 +71,23 @@
             <NavItem>
             <NavLinks to='About'>About</NavLinks>
             </NavItem>
-
-            <NavItemBtn>
+            {/*
+         <NavItemBtn>
             {button ? (
                 <NavBtnLink to="/">
                 <Button primary>SIGN UP</Button>
                 </NavBtnLink>
             ):(
-                <NavBtnLink to="/sign-up">
+                <NavBtnLink to="/contact">
                 <Button onClick={closeMobileMenu} fontBig primary>
                 SIGN UP
                 </Button>
                 </NavBtnLink>
             )}
             </NavItemBtn>
+        */}
+
+           
 
 
             </NavMenu>

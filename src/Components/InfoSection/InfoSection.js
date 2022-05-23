@@ -43,7 +43,7 @@ import {
              <Heading lightText={lightText}>{headline}</Heading>
              <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
              <Subtitle lightTextDesc={lightTextDesc}>{description2}</Subtitle>
-             <Link to='/sign-up'>
+             <Link to='/contact'>
              <Button big fontBig primary={primary}>
              {buttonLabel}
              </Button>
