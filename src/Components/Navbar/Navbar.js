@@ -14,7 +14,7 @@
  import {FaBars, FaTimes} from 'react-icons/fa';
  import { IconContext} from 'react-icons/lib'
 
- import FirstImg from '../../../src/images/Peteka.png'
+ import FirstImg from '../../../src/images/larrykaylogo.jpg'
 
 // import {Button } from '../../globalStyles';
  //the ../../ means (outside Navbar and outside Component then Globalstyles)

@@ -1,9 +1,9 @@
 // import FourImg from '../../../src/images/svg3.svg';
-import FourImg from '../../../src/images/mob1.svg';
+import FourImg from '../../../src/images/brand-awareness2.png';
 import Girl1Img from '../../../src/images/web4.gif';
 // import Girl1Img from '../../../src/images/mob1.svg'
-import ThirdImg from '../../../src/images/digital-marketing2.png';
-import FirstImg from '../../../src/images/web2.svg'
+import ThirdImg from '../../../src/images/brand-gingle.jpg';
+import FirstImg from '../../../src/images/experiential-marketing3.jpeg'
 
 export const homeObjOne = {
     // lightBg:true,
@@ -13,10 +13,10 @@ export const homeObjOne = {
      lightTopLine:true, 
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
-     description: 'We offer iOS, Android, and cross-platform application development services creating award-winning user-friendly mobile solutions for startups, SMEs and Enterprises.', 
-     headline:' Mobile Designs', 
+     description: 'We organize events for companies with the vision of creating awareness of company’s brands to every man within the geographical region of the country', 
+     headline:' Brand Awareness / Launch', 
      lightText: true,
-     topLine: 'Mobile application',
+     // topLine: 'Brand Awareness / Launch',
      img: FourImg,
      alt:'Image',
      start:''
@@ -49,10 +49,10 @@ export const homeObjThree = {
      lightTopLine:true, 
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
-     description: 'We help business owners increase thier  revenue with our digital marketing experience.', 
-     headline:'Digital marketing ', 
+     description: 'We help business owners increase thier  revenue with our Brand Jingle  marketing experience.', 
+     headline:'Brand Jingle Production ', 
      lightText: true,
-     topLine: ' Boost your revenue with our digital marketing experience',
+     // topLine: ' Boost your revenue with our digital marketing experience',
     //  Img: require('../../images/svg2.svg'),
     img: ThirdImg,
      alt:'Image',
@@ -67,10 +67,10 @@ export const homeObjFour = {
      lightTopLine:true, 
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
-     description: 'We design and implement responsive, fast, and user-friendly websites application and landing pages to enhance and unlock the potential of your businesses. Whether you need to boost conversion or improve the brand awareness. We can develop a great website to help you accomplish your goals.', 
-     headline:' Lead Generation web for online businesses', 
+     description: 'We design marketing and sales activities and also events aimed at achieving successful product and goods sales record.', 
+     headline:' Direct sales and expreirntial marketing', 
      lightText: true,
-     topLine: 'Website Development',
+     // topLine: 'Website Development',
      img: FirstImg ,
      alt:'Image',
      start:'true'

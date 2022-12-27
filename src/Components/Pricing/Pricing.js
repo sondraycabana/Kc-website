@@ -31,13 +31,12 @@ function Pricing() {
                   <GiRock />
                 </PricingCardIcon>
                {/*<PricingCardPlan>Starter Pack</PricingCardPlan>*/} 
-               <PricingCardPlan>Web Development</PricingCardPlan>
-                <PricingCardCost>$300 - Plus</PricingCardCost>
+               <PricingCardPlan>Direct sales</PricingCardPlan>
+               <PricingCardCost>$(Customize)</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>ROI is certain</PricingCardFeature>
-                  <PricingCardFeature>User friendly</PricingCardFeature>
-                  <PricingCardFeature>SEO optimised</PricingCardFeature>
+                 
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -47,13 +46,12 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCrystalBars />
                 </PricingCardIcon>
-                <PricingCardPlan>Digital Reputation</PricingCardPlan>
-                <PricingCardCost>$500 - plus</PricingCardCost>
+                <PricingCardPlan>Brand Awareness</PricingCardPlan>
+                <PricingCardCost>$(Customize)</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
                   <PricingCardFeature>ROI is certain</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>
@@ -63,13 +61,15 @@ function Pricing() {
                 <PricingCardIcon>
                   <GiCutDiamond />
                 </PricingCardIcon>
-                <PricingCardPlan>Mobile App </PricingCardPlan>
+                <PricingCardPlan>Brand Jingle </PricingCardPlan>
                 <PricingCardCost>$(Customize)</PricingCardCost>
                 <PricingCardLength></PricingCardLength>
                 <PricingCardFeatures>
-                  <PricingCardFeature>User friendly</PricingCardFeature>
+                  
+                  <PricingCardFeature>ROI is certain</PricingCardFeature> 
                   <PricingCardFeature></PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  
+                  {/*<PricingCardFeature>24/7 Support</PricingCardFeature>*/}
                 </PricingCardFeatures>
                 <Button primary>Choose Plan</Button>
               </PricingCardInfo>

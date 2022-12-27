@@ -10,7 +10,7 @@ const Home = () => {
         <InfoSection {...homeObjThree}/>
         <InfoSection {...homeObjOne}/>
         
-          <InfoSection {...homeObjTwo } /> 
+          
           
            
           

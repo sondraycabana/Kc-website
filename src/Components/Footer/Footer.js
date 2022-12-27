@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../../src/images/Peteka.png'
+import Logo from '../../../src/images/larrykaylogo.jpg'
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import {Button} from '../../globalStyles'
 import { FooterContainer,
@@ -48,11 +48,18 @@ const footer = () => {
                     <FooterLinksItems>
 
                     <FooterLinksTitle>
-                    Technologies
+                    What we do
                     </FooterLinksTitle>
-                    <FooterLink to="/"> Java software development</FooterLink>
-                    <FooterLink to="/"> Javascript software development</FooterLink>
-                    <FooterLink to="/"> Mobile software development</FooterLink>
+                    <FooterLink to="/"> Direct sales / Experiential Marketing</FooterLink>
+                    <FooterLink to="/"> Brand awareness / Launch</FooterLink>
+                    <FooterLink to="/"> Mechandizing</FooterLink>
+                    <FooterLink to="/"> Roadshows</FooterLink>
+                    <FooterLink to="/">Media / Television Adverts</FooterLink>
+                    <FooterLink to="/"> Brand Jingles Productions</FooterLink>
+                    <FooterLink to="/"> DJ services / PA systems</FooterLink>
+                    <FooterLink to="/"> Stage and lighting</FooterLink>
+                    <FooterLink to="/"> Kiddies Entertianment / Adults</FooterLink>
+                    <FooterLink to="/"> Concerts shows/ Carnival</FooterLink>
                     
                     </FooterLinksItems>
 
@@ -71,8 +78,8 @@ const footer = () => {
                     <FooterLinksTitle>
                    Video
                     </FooterLinksTitle>
-                    <FooterLink to="/services"> What we do</FooterLink>
-                    <FooterLink to="/"> Testimonials</FooterLink>
+                    <FooterLink to="/services"> Our services</FooterLink>
+                    <FooterLink to="/"> Home page</FooterLink>
                     
                     </FooterLinksItems>
 
@@ -94,9 +101,9 @@ const footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/">
-                                <img src={Logo} width={80} height={80}   />
+                                <img src={Logo} width={50} height={50}   />
                         </SocialLogo>
-                        <WebsiteRights>PETEKA 2022 </WebsiteRights>
+                        <WebsiteRights>LARRYKAYEVENTS   2022 </WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="/" target="_blank"
                             aria-label="Facebook">

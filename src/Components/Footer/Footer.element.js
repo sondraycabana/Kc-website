@@ -46,7 +46,7 @@ export const Form = styled.form`
 `;
 
 export const FormInput = styled.input`
-  padding: 10px 20px;
+  padding: 10px 20px ;
   border-radius: 2px;
   margin-right: 10px;
   outline: none;

@@ -22,6 +22,7 @@ import {
      buttonLabel, 
      description, 
      description2,
+     description3,
      headline, 
      lightText,
      topLine ,
@@ -43,6 +44,7 @@ import {
              <Heading lightText={lightText}>{headline}</Heading>
              <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
              <Subtitle lightTextDesc={lightTextDesc}>{description2}</Subtitle>
+             <Subtitle lightTextDesc={lightTextDesc}>{description3}</Subtitle>
              <Link to='/contact'>
              <Button big fontBig primary={primary}>
              {buttonLabel}
