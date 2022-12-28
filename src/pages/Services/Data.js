@@ -68,7 +68,7 @@ export const homeObjFour = {
      lightTextDesc:true, 
      buttonLabel:'Get Started', 
      description: 'We design marketing and sales activities and also events aimed at achieving successful product and goods sales record.', 
-     headline:' Direct sales and expreirntial marketing', 
+     headline:' Direct sales and experiential marketing', 
      lightText: true,
      // topLine: 'Website Development',
      img: FirstImg ,
